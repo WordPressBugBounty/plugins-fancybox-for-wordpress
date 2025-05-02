@@ -2,8 +2,8 @@
 Contributors: silkalns
 Tags: fancybox, lightbox, images, photos, pictures
 Requires at least: 4.6
-Tested up to: 6.5
-Stable tag: 3.3.5
+Tested up to: 6.8
+Stable tag: 3.3.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -30,6 +30,9 @@ If you are new to WordPress and want to lear more we have got you covered. Color
 If you enjoy using FancyBox lightbox for WordPress please leave a [positive feedback](https://wordpress.org/support/plugin/fancybox-for-wordpress/reviews/?filter=5). We are committed to make it the best lightbox plugin for WordPress.
 
 == Changelog ==
+= 3.3.6 - 25.11.2024 =
+Fixed: Security issue - Fixed XSS vulnerability in caption and title handling
+
 = 3.3.5 - 12.11.2024 =
 Fixed: Security issue
 
@@ -53,7 +56,7 @@ Fixed compatibility issue with WordPress 5.6
 * Added Zoom on Click functionality
 
 = 3.2.8 =
-* Fix property ‘title’ of undefined when using newer versions of jQuery
+* Fix property 'title' of undefined when using newer versions of jQuery
 * Add option to disable FancyBox on mobile view
 
 = 3.2.7 =
